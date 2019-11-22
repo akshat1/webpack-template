@@ -1,0 +1,27 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 20px;  // This establishes the size of rem
+  font-family: sans-serif;
+}
+
+#root {
+  background: #a7dbd8;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+
+  &:active, &:visited, &:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
